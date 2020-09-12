@@ -1,14 +1,12 @@
 import { assert } from 'chai';
-import defaultAwesomeFunction, { awesomeFunction } from '../src';
 
-describe('Awesome test.', () => {
-  it('should test default awesome function', () => {
-    const expectedVal = 'I am the Default Awesome Function, fellow comrade! - Dinesh';
-    assert(defaultAwesomeFunction('Dinesh') === expectedVal, 'Default not awesome :(');
-  });
+function fake() {
+  return 'No test yet';
+}
 
-  it('should test awesome function', () => {
-    const expectedVal = 'I am just an Awesome Function';
-    assert(awesomeFunction() === expectedVal, 'Named awesome :(');
+describe('Blank test', () => {
+  it('should add test for the project', () => {
+    const expectedVal = 'No test yet';
+    assert(fake() === expectedVal, 'Default not awesome :(');
   });
 });

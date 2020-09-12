@@ -2,11 +2,19 @@
   "env": {
     "development": {
       "presets": ["@babel/preset-env"],
-      "plugins": []
+      "plugins": [
+        [
+          "@babel/plugin-proposal-class-properties"
+        ]
+      ]
     },
     "production": {
       "presets": ["@babel/preset-env", "minify"],
-      "plugins": []
+      "plugins": [
+        [
+          "@babel/plugin-proposal-class-properties"
+        ]
+      ]
     }
   }
 }
