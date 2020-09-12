@@ -1,7 +1,7 @@
 {
-  "name": "npm-module-boilerplate",
+  "name": "congo-datasource",
   "version": "1.0.1",
-  "description": "Boilerplate for npm modules with ES6 features and syntax",
+  "description": "Rest datasource",
   "main": "./lib/index.js",
   "scripts": {
     "clean": "rimraf lib",
@@ -21,21 +21,21 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/flexdinesh/npm-module-boilerplate.git"
+    "url": "git+https://github.com/donmbelembe/datasource.git"
   },
   "keywords": [
-    "boilerplate",
+    "rest",
     "npm",
     "module",
     "node",
     "javascript"
   ],
-  "author": "Dinesh Pandiyan <flexdinesh@gmail.com>",
+  "author": "Don Mbelembe <bizroy678@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/flexdinesh/npm-module-boilerplate/issues"
+    "url": "https://github.com/donmbelembe/datasource/issues"
   },
-  "homepage": "https://github.com/flexdinesh/npm-module-boilerplate#readme",
+  "homepage": "https://github.com/donmbelembe/datasource#readme",
   "devDependencies": {
     "@babel/cli": "^7.11.6",
     "@babel/core": "^7.11.6",
